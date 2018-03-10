@@ -7,6 +7,8 @@
 		"test": "jest"
 	},
 	"dependencies": {
+		"mobile-center-analytics": "^0.11.2",
+		"mobile-center-crashes": "^0.11.2",
 		"react": "16.0.0",
 		"react-addons-perf": "^15.4.2",
 		"react-addons-test-utils": "^15.6.2",
