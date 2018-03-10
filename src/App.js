@@ -15,7 +15,7 @@ import {
 
 
 export default class dad_jokes extends Component {
-  state = {joke: 'Press button for joke'}
+  state = {joke: 'Press button for joke.'}
   handleButtonPress(e){
     this.setState({joke:'...'})
     fetch('https://icanhazdadjoke.com/', {headers:{Accept:'text/plain'}}).then(r=>r.text())
